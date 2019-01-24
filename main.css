@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=VT323'); /* -----------pour mon titre principal----------------- */
+
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P'); /* ------------------------pour mon menu--------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Wallpoet'); /* ---------------------pour mon paragraphe de bienvenue = font-family: 'Wallpoet', cursive;------------------ */
+
+@import url('https://fonts.googleapis.com/css?family=Dr+Sugiyama'); /* ----------------------pour mon pied de page = font-family: 'Dr Sugiyama', cursive;----------------------- */
+
+
+/* -------------------ci dessou ce trouve ma version mobile first------------------------------- */
+
+
+/* ----------------------------ci dessou ce trouve ma version mobile first--------------------------------- */ 
+
+/* pense a modifier le style et la taille de police */
+
+
+/* ------------------------ici ce trouve mon image de fond------------------------------ */
+    body,html {
+        /*background-image: url("image/papereer.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;*/
+        background-color: rgb(3, 0, 51);
+        margin: 0;
+        padding: 0;
+        display: table;
+        height: 100%;
+        width: 100%;
+        color: white;
+    }
+
+    
+
+/* --------------------------------taille des icons---------------------------------------- */
+    #img1 {
+        width: 5%;
+    }
+    #img2 {
+    width: 5%;
+    }
+    #img3 {
+    width: 5%;
+    } 
+    #img4 {
+        width: 5%;
+    }
+
+    #icon {
+        margin-left: 1.5%;
+        margin-top: 1%;
+    }
+/* -----------------------------------icones mis en valeur au passage du pointeur-------------------------------- */
+    #icon :hover {
+        background-color: white;
+        opacity: 1;
+        padding-left: 0;
+        transform: scale(2);
+      }      
+
+/* -------------------------------centrer le titre------------------------------- */
+    h1 {        
+        text-align: center;
+        font-family: 'VT323', monospace;
+        font-size: 38px;
+        margin-bottom: 0;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    #abb {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: 6%;
+        padding-top:0;
+        margin-left: 40%;
+    }
+    #abb p {
+        margin-top: 0;
+    }
+
+/* -----------------------------couleur de fond du menu-------------------------------- */
+    nav {
+        background-color: rgba(0, 0, 0, 0.504);
+        display: flex;
+        height: 40px;
+        
+    }
+    
+/* -----------------------------position du menu-------------------------------- */
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        margin: 0;
+        width: 100%;
+    }
+    nav a{
+        color: aqua;
+        line-height: 40px;
+    }
+    nav a:hover{
+
+        line-height: 40px;
+    }
+
+/* -----------------------------direction du menu--------------------------------- */
+    nav li {
+        list-style-type: none;
+        font-size: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+        font-family: 'Press Start 2P', cursive;
+    }
+    
+/* ---------------------------Change la couleur aux passage du pointeur---------------------------- */
+    nav li:hover {
+        background-color: #180083;
+        height: 100%;
+    }
+
+/* -------------------ici ce trouve mon texte de bienvenue----------------------- */
+    #bienvenue{
+        font-family: 'Wallpoet', cursive;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+/* ------------------------------------mon footer-------------------------------------- */
+    footer {
+        display: table-row;
+        height: 1px;
+        background-color: #303131;
+        color: white;
+        text-align: center;
+        font-family: 'Dr Sugiyama', cursive;
+    }
+    
+
+
+
+/* -----------------------------disign cv---------------------------------------- */
+
+    
+    #soutitreCV {
+        margin-top: 10%;
+        text-align: center;
+        font-size: 11px;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+/* ----------------------------------disign du soutitre----------------------------- */
+    #parPro {
+        text-align: center;
+        border: 3px solid blue;
+        border-radius: 5px;
+        margin-left: 18%;
+        margin-right: 16%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-family: 'Wallpoet', cursive; 
+    }
+
+/* -------------------------------------tableau-------------------------------------- */
+    ul {
+        list-style-type: square;
+        text-align: right;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    table, th, td {
+        border: 2px solid blue;
+    }
+    
+    th {
+        height: 60px;
+    }
+    .tableau {
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2.5%;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px; 
+    }
+    .tableauF {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 8px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .tableau td {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    
+    #titrForm {
+        text-align: center;
+        border: 3px solid blue;
+        border-radius: 5px;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 6%;
+        margin-bottom: 4%;
+        font-family: 'Wallpoet', cursive;
+    }
+    #objectif {
+        margin-top: 6%;
+    }
+    #titreF {
+        text-align: center;
+        border: 3px solid blue;
+        border-radius: 5px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 14%;
+        margin-bottom: 14%;
+        font-family: 'Wallpoet', cursive;
+    }
+    #titreF p {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 8px;
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+    /* ---------------------------------ici ce trouve mon lien de telechargement-------------------------------- */
+
+    #lienCV {
+        border: 3px solid blue;
+        font-size: 22px;
+        margin-bottom: 3%;
+        margin-left: 2%;
+        margin-right: 60%;
+        background-color: beige;
+        text-align: center;
+    }
+    
+/*--------------------------- ic ce trouve ma page portfolio----------------*/
+
+    /*    design du titrePTFL     */
+    #titrePTFL {
+        text-align: center;
+        border: 3px solid blue;
+        border-radius: 5px;
+        font-family: 'Wallpoet', cursive;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+}
+    .imgCTV {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+        background-position: center;
+        
+    }
+    #imageCTV {
+        width: 100%;
+        height: auto;
+    }
+    #voir {
+        margin-top: 1%;
+        margin-bottom: 10%;
+
+    }
+
+
+
+
+/* ------------------------------ici ce trouve le design de mon formulaire de contacte------------------------------ */
+    
+
+
+
+    #log {   
+        
+        margin-left: 20%;
+        width: 20%;
+        margin-top: 10%;
+    }
+    #NAME {
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    #PRENOM {
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    #DateDeNaissance {
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    #EMAIL {
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    #MSG {
+        height: 100px;
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    #ENVOYER {
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+    
+
+/* -----------------------------ici ce trouve ma version desktop---------------------------------- */
+    @media only screen and (min-width: 768px) {
+/* -------------------------mes icones------------------------------- */
+        #img1 {
+            width: 1.5%;
+        }
+        #img2 {
+        width: 1.5%;
+        padding-left: 0.5%;
+        }
+        #img3 {
+        width: 1.5%;
+        padding-left: 0.5%;
+        } 
+        #img4 {
+            width: 1.5%;
+            padding-left: 0.5%;
+        }
+    
+        #icon {
+            margin-left: 1%;
+            margin-top: 1%;
+        }
+
+/* -----------------------------mon titre------------------------------------ */
+        h1 {
+            font-size: 75px;
+        }
+        
+/* ----------------------------------soutitre---------------------------------- */
+        #abb {
+            font-size: 25px;
+            margin-left: 40%;
+        }
+        #abb p {
+            margin-top: 1%;
+        }
+
+/* -------------------------------------mon menu------------------------------------- */
+        nav li {
+            font-size: 14px;
+            line-height: 55px;
+            width: 200px;
+        }
+
+/* ------------------------------ici ce trouve mon texte de bienvenue------------------------------- */
+        #bienvenue{
+            font-size: 28px;
+            margin-top: 8%;
+            margin-left: 12%;
+            margin-right: 12%;
+        }
+/*------------------------------texte cv---------------------------------*/
+
+        #soutitreCV {
+            font-size: 24px;
+            margin-top: 12%;
+        }
+
+        #parPro {
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            font-size:  24px;
+        }
+
+        .tableau {
+            margin-top: 3%;
+            margin-left: 2%;
+            margin-right: 2%;
+            font-size: 20px;
+             
+        }
+        .tableauF {
+            font-size: 14px;
+            text-align: center;
+            
+        }
+        table, th, td {
+            border: 3px solid blue; 
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        .tableau td {
+            font-size: 14px;
+            height: 20%;
+        }
+
+        #titrForm {
+            margin-left: 30%;
+            margin-right: 30%;
+            
+            font-size: 24px;
+            
+        }
+
+        #titreF {
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 5%;
+            font-size: 22px;
+            margin-bottom: 0;
+        }
+        #titreF p {
+            font-size: 14px;
+        }
+
+        #titreF h3 {
+            font-size: 30px;
+        }
+
+        #lienCV {
+            width: 12%;
+            margin-top: 3%;
+            margin-bottom: 5%;
+        }
+
+/*------------------------------------- portfolio -----------------------------------*/
+
+#titrePTFL {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.imgCTV {
+    width: 50%;
+    margin-top: 5%; 
+    margin-left: 25%;
+}
+
+
+
+
+
+
+/* ---------------------------------ici ce trouve mon formulaire de contacte-------------------------------- */
+
+
+
+/*-------------------------------------pied de page-----------------------------------*/
+        .pdp {
+            font-size: 26px;
+    
+        }
+
+
+    }
